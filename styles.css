@@ -34,11 +34,35 @@ body {
 
 .right {
     /* border: 1px solid red; */
+    padding: 70px;
     text-align: center;
+    background-color: white;
+    border-radius: 30px;
 }
 
 input, button {
-    height: 2rem;
+    height: 3rem;
     display: block;
     width: 100%;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.btnlogin {
+    background-color: rgba(0, 60, 255, 0.808);
+    color: white;
+    font-size: 1.4rem;
+}
+
+.newaccountbtn {
+    background-color: rgb(23, 189, 23);
+    color: white;
+    font-size: 1.2rem;
+}
+
+input::placeholder {
+    color: rgb(78, 78, 78);
+    font-size: 1rem;
+    padding: 5px;
 }
