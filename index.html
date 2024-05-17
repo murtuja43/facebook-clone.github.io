@@ -3,29 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook clone</title>
+    <title>Facebook Login</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section>
-        <div class="main">
-            <div class="left">
-                <h1>facebook</h1>
-                <h3>Facebook helps you connect and share with the people in your life.</h3>
-            </div>
-
-
-            <div class="right">
-                <h1>facebook</h1>
-                <h3>Facebook helps you connect and share with the people in your life.</h3>
-            </div>
+    <div class="container">
+        <div class="left-column">
+            <h1>facebook</h1>
+            <p>Facebook helps you connect and share with the people in your life.</p>
         </div>
-    </section>
-
-    <section>
-        <div class="footer">
-
+        <div class="right-column">
+            <form>
+                <input type="text" placeholder="Email address or phone number" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Log in</button>
+                <a href="#">Forgotten password?</a>
+                <hr>
+                <button type="button" class="create-account">Create new account</button>
+            </form>
         </div>
-    </section>
+    </div>
+    <footer>
+        <a href="#">Create a Page</a> for a celebrity, brand or business.
+    </footer>
 </body>
 </html>
