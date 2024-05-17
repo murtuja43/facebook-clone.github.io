@@ -7,6 +7,7 @@ body {
     align-items: center;
     height: 100vh;
 }
+/* .parent .child:not(.exclude) */
 
 .container {
     display: flex;
@@ -29,4 +30,15 @@ body {
     font-size: 1.8rem;
     margin-top: -40px;
     color: rgb(22, 22, 22);
+}
+
+.right {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+input, button {
+    height: 2rem;
+    display: block;
+    width: 100%;
 }
