@@ -34,10 +34,12 @@ body {
 
 .right {
     /* border: 1px solid red; */
-    padding: 70px;
+    padding: 50px;
     text-align: center;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 20px;
+    width: 50%;
+    margin-top: -50px;
 }
 
 input, button {
@@ -59,10 +61,21 @@ input, button {
     background-color: rgb(23, 189, 23);
     color: white;
     font-size: 1.2rem;
+    margin-top: 20px;
+    border: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input::placeholder {
     color: rgb(78, 78, 78);
     font-size: 1rem;
     padding: 5px;
+}
+
+.forgotlink {
+    font-size: 0.9rem;
+    font-style: normal;
+    text-decoration: none;
 }
