@@ -79,3 +79,18 @@ input::placeholder {
     font-style: normal;
     text-decoration: none;
 }
+
+.footer {
+    display: block;
+    position: absolute;
+    top: 74%;
+    left: 59%;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+
+.none {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
