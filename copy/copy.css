@@ -4,9 +4,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.texts {
-    height: 100vh;
-    width: 100%;
+.underlineless {
+    color: blue;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
 }
