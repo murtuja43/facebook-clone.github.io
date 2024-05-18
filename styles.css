@@ -94,3 +94,8 @@ input::placeholder {
     color: black;
     font-weight: bold;
 }
+
+.nodecor {
+    text-decoration: none;
+    color: white;
+}
